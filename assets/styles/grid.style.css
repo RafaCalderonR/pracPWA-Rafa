@@ -1,0 +1,33 @@
+body{
+  width: 100%;
+  height: 94%
+}
+
+html{
+width: 100%;
+height: 100%
+}
+.card{
+  width: 10rem;
+    height: 20rem;
+    text-align: center;
+}
+
+
+.grid-container {
+  height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 90%;
+    grid-template-areas: "searcher searcher" "character character";
+  }
+  
+  .searcher { grid-area: searcher; }
+  
+  .character { grid-area: character;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center
+
+}
